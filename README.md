@@ -1,6 +1,9 @@
 # Pipeline-RISCV
 
-5-stage pipelined RISC-V soft-core processor implemented in Verilog with a Hazard Unit. It is based on the RV32i Instruction Set in which all the instructions are implemented with the exception of _fence_, _ecall_, _ebreak_ and _csrr-based_. The implemented processor diagram and correspondent design are shown below.
+5-stage pipelined RISC-V soft-core processor implemented in Verilog with a Hazard Unit. It is based on the RV32i Instruction Set in which all the instructions are implemented with the exception of _fence_, _ecall_, _ebreak_ and _csrr-based_. Unitary and integration tests are provided [here](https://github.com/joscarvalho/Pipeline-RISCV/tree/main/instructions_tests).
+
+
+The implemented processor diagram and correspondent design are shown below.
 
 <p align="center">
     <b> </b><br>
