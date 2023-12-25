@@ -274,7 +274,7 @@
 
 ## Integration Tests
 
-- Limited instruction set test
+- Limited instruction set test (riscmem.mem)
   ```
   1 ###############################################
   2 # Expected output: 0x64 = 25 (0x19)
@@ -307,7 +307,7 @@
   29 00210063 beq x2, x2, done # infinite loop
   ```
   
-- Instruction set test
+- Instruction set test (RiscVTest.mem)
   ```
   1 ###############################################
   2 # Expected output: 0x50 = 25 (0x19)
